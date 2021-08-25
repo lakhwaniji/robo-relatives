@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.Heading{
+    font-family:'Monoton';
+    font-size: 2cm;
+    font-weight: 100;
+    font-style: italic;
+}
+
+::placeholder{
+    font-size: 2fr;
+    font-style: italic;
+}
+input{
+    width: 250px;
+}
+
+@media only screen and (max-width: 750px) {
+    .Heading{
+        font-size: 1cm;
+    }
+    .searching{
+        padding: 1px;
+    }
+  }

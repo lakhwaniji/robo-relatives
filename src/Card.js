@@ -22,7 +22,7 @@ class Card extends react.Component{
     render(){
         const {id}=this.props
     return(
-        <div className="dib fullcard">
+        <div className="dib">
         <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
               <div className="shadow-5 w5 ma3  pb3 tc card">
                  <img src={`https://robohash.org/${id}`} style={{width:"200px", borderRadius:"5px"}} className="shadow-3 ma3 grow" alt="Robot"/>
