@@ -1,9 +1,9 @@
 
-import Card from "./Card.js"
+import Cardlist from "./Cardlist"
 function App() {
   return (
     <div>
-      <Card/>
+      <Cardlist/>
     </div>
   );
 }

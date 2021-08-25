@@ -8,3 +8,6 @@
     background: linear-gradient(90deg,  rgba(0,255,170,1) 0%, rgba(48,162,226,1) 81%);
     box-sizing: content-box;
 }
+.fullcard{
+    text-align: center;
+}
