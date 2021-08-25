@@ -1,9 +1,8 @@
 import React from "react";
-import { Robots } from "./Robots";
 import Card from "./Card"
 import "tachyons"
 
-function Cardlist(){
+function Cardlist({Robots}){
     return(
         <div className="tc">
             {
