@@ -8,7 +8,7 @@ function Cardlist({Robots}){
             {
                 Robots.map((user,i)=>{
                     return(
-                        <Card id={user.id} name={user.name} fullname={user.fullname} contactno={user.contactno} age={user.age} marriage={user.marriage} email={user.email} key={i} />
+                        <Card id={user.id} name={user.name} fullname={user.fullname} contactno={user.contactno} age={user.age} Birthday={user.Birthday} email={user.email} key={i} />
                     );
                 }
                 )
